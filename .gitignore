@@ -1,0 +1,64 @@
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Thumbnails
+._*
+
+# =========================
+# R session & workspace files
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# =========================
+# RStudio files
+# =========================
+.Rproj.user/
+*.Rproj
+
+# =========================
+# R Markdown / Quarto outputs
+# =========================
+*.html
+*.pdf
+*.docx
+*.log
+*.aux
+*.out
+*.toc
+
+# If using Quarto
+/.quarto/
+
+# =========================
+# Data files (optional – uncomment if needed)
+# =========================
+# Large raw data (recommended to ignore)
+data/raw/
+data/intermediate/
+*.csv
+*.xlsx
+*.rds
+*.RDS
+
+# =========================
+# Package libraries (if using renv)
+# =========================
+renv/library/
+renv/staging/
+
+# Keep renv lockfile
+!renv.lock
+
+# =========================
+# Miscellaneous
+# =========================
+*.tmp
+*.bak
+*.swp
